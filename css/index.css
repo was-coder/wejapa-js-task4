@@ -317,7 +317,7 @@ main .main__div button {
           align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .boost__div h4 {
