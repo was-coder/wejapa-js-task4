@@ -236,7 +236,7 @@ main .main__div button {
 /*start of statistics section*/
 .statistics {
   background-color: #bfbfbf;
-  padding-top: 50px;
+  padding: 70px 0;
 }
 
 .statistics__advanced {
@@ -317,7 +317,7 @@ main .main__div button {
           align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 .boost__div h4 {
