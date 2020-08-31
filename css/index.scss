@@ -128,7 +128,7 @@ header {
             margin: 0;
             height: 1px;
             background-color: hsl(0, 0%, 75%);
-            width: 350%;
+            width: 100%;
         }
     }
 }
@@ -143,15 +143,19 @@ header {
         display: flex;
         justify-content: space-between;
 
+        img {
+            width: 100%;
+        }
+
         .summary__text {
             display: flex;
             justify-content: center;
             flex-direction: column;
-            width: 80%;
+            width: 90%;
 
             h1 {
                 font-weight: bold;
-                font-size: 50px;
+                font-size: 45px;
             }
 
             p {
@@ -231,7 +235,6 @@ main {
             position: absolute;
             height: 80%;
             width: .3rem;
-            margin-left: -3.5%;
         }
 
         .statistics__card__board {
@@ -271,10 +274,10 @@ main {
         flex-direction: column;
         align-items: center;
         align-self: center;
-        min-height: 20vh;
+        padding: 10px 0;
 
         h4 {
-            font-size: 40px;
+            font-size: 30px;
             font-weight: bold;
         }
 
@@ -283,8 +286,8 @@ main {
             color:#fff;
             font-size: 25px;
             font-weight: bold;
-            height: 3.5rem;
-            width: 10.5rem;
+            height: 3rem;
+            width: 10rem;
             border: 2px solid hsl(180, 66%, 49%);
             border-radius: 25px;
         }
@@ -402,7 +405,6 @@ main {
         top: 25%;
         max-height: .3rem;
         min-width: 60%;
-        margin-left:-20%;
     }
 
     .detailed {
@@ -418,6 +420,10 @@ main {
     .boost {   
         background: url(/images/bg-boost-desktop.svg) center;
         background-color: hsl(255, 11%, 22%);
+
+        h4 {
+            font-size: 40px;
+        }
     }
     /*end of boost section*/
 
