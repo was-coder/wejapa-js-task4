@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorten URL</title>
+    <!--start of links-->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+    <script src="/js/all.js"></script>
+    <!--end of links-->
+</head>
+<body>
+    
+    <!--start of header-->
+    <header class="container-fluid">
+    
+        <!--start of hamburger menu-->
+        <div class="collapse-btn d-md-none">
+            <span class="collapse-btn__burger"></span>
+        </div>
+        <!--end of hamburger menu-->
+
+        <div class="row">
+    
+            <!--start of logo image-->
+            <div class="col-md-2 col-lg-1">
+                <img src="/images/logo.svg" alt="Shortly" id="logo">
+            </div>
+            <!--end of logo image-->
+
+            <!--start of navigation bar-->
+            <div class="col-md-5 col-lg-7">
+                <nav class="nav">
+                    <ul class="menu-nav">
+                        <li class="menu-nav__item"><a class="menu-nav__link text-capitalize font-weight-bold" href="#features">features</a></li>
+                        <li class="menu-nav__item"><a class="menu-nav__link text-capitalize font-weight-bold" href="#prices">prices</a></li>
+                        <li class="menu-nav__item"><a class="menu-nav__link text-capitalize font-weight-bold" href="#resources">resources</a></li> <hr class="d-md-none">
+                        <li class="menu-nav__item"><a class="menu-nav__link text-capitalize font-weight-bold d-md-none" href="#login">login</a></li>
+                        <li class="menu-nav__item"><a class="menu-nav__link unique text-capitalize font-weight-bold d-md-none" href="#">sign up</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-md-5 col-lg-4">
+                <nav class="nav">
+                    <ul class="menu-nav">
+                        <li class="menu-nav__item"><a class="menu-nav__link text-capitalize font-weight-bold" href="#login">login</a></li>
+                        <li class="menu-nav__item"><a class="menu-nav__link unique text-capitalize font-weight-bold" href="#">sign up</a></li>      
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--end of navigation bar-->
+    </header>
+    <!--end of header-->
+
+    <!--start of summary section-->
+    <section class="container summary">
+        <div class="row summary__div">
+
+            <div class="container-fluid col-md-7">
+                <img src="/images/illustration-working.svg" alt="Image of a lady sitting">
+            </div>
+
+            <div class="container col-md-5 summary__text">
+                <h1>More than just shorter links</h1>
+                <p>Build your brand's recognition and get detailed insights on how your links are performing</p>
+                <a href="#" class="text-capitalize btn btn-primary">get started</a>
+            </div>
+
+        </div>
+    </section>
+    <!--end of summary section-->
+
+    <!--start of main section-->
+    <main class="container">
+        <div class="row main__div bg-dark">
+
+            <div class="col-md-9">
+                <input type="text" id="shorten" placeholder="Shorten a link here..." class="pl-3">
+            </div>
+
+            <div class="col-md-3">
+                <button class="btn text-white" id="shortenBtn">Shorten It!</button>
+            </div>
+
+        </div>
+    </main>
+    <!--end of main section-->
+
+    <!--start of statistics section-->
+    <section class="container-fluid statistics">
+
+        <div class="statistics__advanced">
+            <h2 class="text-capitalize">advanced statistics</h2>
+            <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+        </div>
+
+        <div class="row statistics__card">
+            <hr class="statistics__card__hr">
+
+            <div class="container col-md-3 statistics__card__board">
+                <div class="statistics__card__board__img bg-dark">
+                    <img src="/images/icon-brand-recognition.svg" alt="Brand recognition">
+                </div>
+                <h3 class="text-capitalize font-weight-bold">brand recognition</h3>
+                <p>Boost your brand recognition with each click.generic links don't mean a thing.Branded links help instil confidence in your content.</p>
+            </div>
+
+            <div class="container col-md-3 statistics__card__board detailed">
+                <div class="statistics__card__board__img bg-dark">
+                    <img src="/images/icon-detailed-records.svg" alt="detailed recognition">
+                </div>
+                <h3 class="text-capitalize font-weight-bold">detailed records</h3>
+                <p>Gain insights into who is clicking your links.Knowing when and where people engage with your content helps inform better decisions.</p>
+            </div>
+
+            <div class="container col-md-3 statistics__card__board fully">
+                <div class="statistics__card__board__img bg-dark">
+                    <img src="/images/icon-fully-customizable.svg" alt="Fully Customizable">
+                </div>
+                <h3 class="text-capitalize font-weight-bold">fully customizable</h3>
+                <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+            </div>
+        </div>
+    </section>
+    <!--end of statistics section-->
+
+    <!--start of boost section-->
+    <section class="container-fluid boost">
+        <div class="boost__div">
+            <h4>Boost your links today</h4>
+            <button class="text-capitalize">get started</button>
+        </div>
+    </section>
+    <!--end of boost section-->
+
+    <!--start of footer section-->
+    <footer class="container-fluid bg-dark">
+        <div class="footer-row">
+
+            <div class="col-md-3">
+                <h5 class="text-capitalize font-weight-bold text-white">shortly</h5>
+            </div>
+
+            <div class="col-md-2">
+                <ul class="text-capitalize">
+                    <li><a href="#" class="text-white">features</a></li> <br>
+                    <li><a href="#">link shortening</a></li>
+                    <li><a href="#">branded links</a></li>
+                    <li><a href="#">analytics</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <ul class="text-capitalize">
+                    <li><a href="#" class="text-white">resources</a></li> <br>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">developers</a></li>
+                    <li><a href="#">support</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <ul class="text-capitalize">
+                    <li><a href="#" class="text-white">company</a></li> <br>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">our team</a></li>
+                    <li><a href="#">careers</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 footer-icon">
+                <img src="/images/icon-facebook.svg" alt="facebook icon">
+                <img src="/images/icon-twitter.svg" alt="twitter icon">
+                <img src="/images/icon-pinterest.svg" alt="pinterest icon">
+                <img src="/images/icon-instagram.svg" alt="instagram icon">
+            </div>
+
+        </div>
+    </footer>
+    <!--end of footer section-->
+
+
+    
+    <script src="/js/index.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
