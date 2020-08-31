@@ -28,8 +28,3 @@ function toggleMenu () {
 /*End of JS for button toggling*/
 
 /*start of calling API*/
-const form = document.getElementById("form");
-const shorten = document.getElementById("shorten");
-const shortenBtn = document.getElementById("shortenBtn");
-
-form.addEventListener("click", e => )
