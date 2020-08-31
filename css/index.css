@@ -147,7 +147,7 @@ header .collapse-btn__burger::after {
   margin: 0;
   height: 1px;
   background-color: #bfbfbf;
-  width: 350%;
+  width: 100%;
 }
 
 /*end of heading styling*/
@@ -166,6 +166,10 @@ header .collapse-btn__burger::after {
           justify-content: space-between;
 }
 
+.summary__div img {
+  width: 100%;
+}
+
 .summary__div .summary__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,12 +181,12 @@ header .collapse-btn__burger::after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 80%;
+  width: 90%;
 }
 
 .summary__div .summary__text h1 {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .summary__div .summary__text p {
@@ -262,7 +266,6 @@ main .main__div button {
   position: absolute;
   height: 80%;
   width: .3rem;
-  margin-left: -3.5%;
 }
 
 .statistics__card .statistics__card__board {
@@ -311,11 +314,11 @@ main .main__div button {
           align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
-  min-height: 20vh;
+  padding: 10px 0;
 }
 
 .boost__div h4 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -324,8 +327,8 @@ main .main__div button {
   color: #fff;
   font-size: 25px;
   font-weight: bold;
-  height: 3.5rem;
-  width: 10.5rem;
+  height: 3rem;
+  width: 10rem;
   border: 2px solid #2acfcf;
   border-radius: 25px;
 }
@@ -440,7 +443,6 @@ main .main__div button {
     top: 25%;
     max-height: .3rem;
     min-width: 60%;
-    margin-left: -20%;
   }
   .detailed {
     margin-top: 50px !important;
@@ -453,6 +455,9 @@ main .main__div button {
   .boost {
     background: url(/images/bg-boost-desktop.svg) center;
     background-color: #35323e;
+  }
+  .boost h4 {
+    font-size: 40px;
   }
   /*end of boost section*/
   /*start of footer section*/
