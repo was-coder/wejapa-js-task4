@@ -154,7 +154,7 @@ header .collapse-btn__burger::after {
   margin: 0;
   height: 1px;
   background-color: #bfbfbf;
-  width: 200%;
+  width: 300px;
 }
 
 /*end of heading styling*/
