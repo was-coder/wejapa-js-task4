@@ -138,6 +138,13 @@ header .collapse-btn__burger::after {
 
 .nav .menu-nav .menu-nav__item .unique {
   background-color: #2acfcf;
+  padding: 10px 50px;
+  border-radius: 25px;
+  color: #fff !important;
+}
+
+.nav .menu-nav .menu-nav__item .unique1 {
+  background-color: #2acfcf;
   padding: 10px 15px;
   border-radius: 25px;
   color: #fff !important;
@@ -147,14 +154,14 @@ header .collapse-btn__burger::after {
   margin: 0;
   height: 1px;
   background-color: #bfbfbf;
-  width: 100%;
+  width: 200%;
 }
 
 /*end of heading styling*/
 /*start of summary section*/
 .summary {
   overflow: hidden;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .summary__div {
@@ -164,10 +171,6 @@ header .collapse-btn__burger::after {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.summary__div img {
-  width: 100%;
 }
 
 .summary__div .summary__text {
@@ -270,7 +273,7 @@ main .main__div button {
 
 .statistics__card .statistics__card__board {
   background-color: #fff;
-  width: 80%;
+  width: 400px;
   margin: 30px auto;
   padding: 40px 0;
   text-align: center;
