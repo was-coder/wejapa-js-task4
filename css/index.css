@@ -154,7 +154,6 @@ header .collapse-btn__burger::after {
 /*start of summary section*/
 .summary {
   overflow: hidden;
-  min-height: 100vh;
   padding-top: 50px;
 }
 
@@ -209,11 +208,10 @@ main .main__div {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 15px 0;
-  padding: 15px 0;
   border-radius: 10px;
 }
 
-main .main__div input[type="text"], main .main__div button {
+main .main__div input, main .main__div button {
   display: block;
   width: 100%;
   height: 3rem;
@@ -256,13 +254,15 @@ main .main__div button {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  position: relative;
 }
 
 .statistics__card .statistics__card__hr {
   background-color: #2acfcf;
   position: absolute;
-  height: 100%;
+  height: 80%;
   width: .3rem;
+  margin-left: -3.5%;
 }
 
 .statistics__card .statistics__card__board {
@@ -311,7 +311,7 @@ main .main__div button {
           align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
-  min-height: 30vh;
+  min-height: 20vh;
 }
 
 .boost__div h4 {
@@ -432,14 +432,15 @@ main .main__div button {
   }
   /*end of main section*/
   /*start of statistics section*/
-  __advanced {
+  .statistics__advanced {
     text-align: center;
     width: 40%;
   }
   .statistics__card__hr {
-    top: 165%;
+    top: 25%;
     max-height: .3rem;
     min-width: 60%;
+    margin-left: -20%;
   }
   .detailed {
     margin-top: 50px !important;
