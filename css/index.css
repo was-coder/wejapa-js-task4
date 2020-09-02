@@ -232,6 +232,27 @@ main .main__div button {
   background-color: #2acfcf;
 }
 
+main .short-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .short-section .square {
+  background-color: #2acfcf;
+  border: 2px solid #2acfcf;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+main .short-section .square.focus {
+  outline: none;
+}
+
 /*end of main section*/
 /*start of statistics section*/
 .statistics {

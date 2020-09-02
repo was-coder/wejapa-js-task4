@@ -205,6 +205,24 @@ main {
             background-color: hsl(180, 66%, 49%);
         }
     }
+    
+    .short-section {
+        display: flex;
+        justify-content: space-between;
+
+        .square {
+            background-color: hsl(180, 66%, 49%);
+            border: 2px solid hsl(180, 66%, 49%);
+            border-radius: 10px;
+            font-weight: bold;
+            padding: 5px 20px;
+        }
+
+        .square.focus {
+            outline: none;
+        }
+    }
+
 }
 /*end of main section*/
 
